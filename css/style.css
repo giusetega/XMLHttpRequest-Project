@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+
+header{
+    width: 70%;
+    margin: auto;
+}
+
+#alert{
+    background-color: red;
+    color: white;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+#users-container{
+    margin: 10px auto;
+    width: 70%;
+}
+
+.user-flex{
+    display: flex;
+    border: 1px solid #000000;
+}
+
+.user-container{
+    width: 100%;
+}
+
+.user-name{
+    background-color: #323232;
+    color: white;
+}
+
+.user-name h3{
+    margin: 0;
+    padding: 7px 0px ;
+}
+
+.img-user{
+    width: 30%;
+}
+
+.img-user img{
+    width: 100%;
+    height: 100%;
+}
+
+.info-user{
+    width: 70%;
+    padding: 10px;
+    align-self: center;
+    font-size: 1.2em;
+}
+
+button{
+    font-size: 0.8em;
+}
