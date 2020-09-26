@@ -20,7 +20,7 @@ function search(e){
         if (xhttp.readyState == 4 && xhttp.status == 200){
             if (alert != null || alert != ""){
                 alert.innerHTML = "";
-                };
+            };
             var user = JSON.parse(xhttp.responseText);
             console.log(user);
             printOutput(user);
@@ -30,7 +30,7 @@ function search(e){
             var profile = document.querySelector(".user-container")
             if (profile != null || profile != ""){
                 profile.innerHTML = "";
-                };
+            };
             alert.innerHTML = "User not found, try with another";
         }
     }    

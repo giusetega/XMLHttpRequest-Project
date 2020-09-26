@@ -1,11 +1,24 @@
 body{
     text-align: center;
     margin: auto;
+    background: #2D2926FF;
+    color: #E94B3CFF;
 }
 
 header{
     width: 70%;
     margin: auto;
+}
+
+#research{    
+    font-size: 1.3em;
+}
+#research input[type="submit"]{
+    font-size: 0.8em;
+    background: #191919;
+    color: #E94B3CFF;
+    border: 1px solid #E94B3CFF; 
+    border-radius: 7px;
 }
 
 #alert{
@@ -15,28 +28,31 @@ header{
     border-radius: 5px;
 }
 
-#users-container{
-    margin: 10px auto;
-    width: 70%;
-}
-
 .user-flex{
     display: flex;
-    border: 1px solid #000000;
+    border-top: 2px dotted #E94B3CFF;    
+    border-right: 2px solid #E94B3CFF;    
+    border-left: 2px solid #E94B3CFF;    
+    border-bottom: 2px solid #E94B3CFF;    
 }
 
 .user-container{
-    width: 100%;
+    margin: 10px auto;
+    width: 80%;
 }
 
 .user-name{
-    background-color: #323232;
-    color: white;
+    background-color: #191919;
+    color: #E94B3CFF;
+    border-top: 1px solid #E94B3CFF;  
+    border-right: 1px solid #E94B3CFF;    
+    border-left: 1px solid #E94B3CFF; 
 }
 
 .user-name h3{
     margin: 0;
     padding: 7px 0px ;
+    font-size: 1.3em;
 }
 
 .img-user{
@@ -52,9 +68,14 @@ header{
     width: 70%;
     padding: 10px;
     align-self: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 button{
-    font-size: 0.8em;
+    font-size: 0.9em;
+    background: #191919;
+    color: #E94B3CFF;
+    border: 1px solid #E94B3CFF; 
+    border-radius: 7px;
+    padding: 10px;
 }
